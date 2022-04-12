@@ -125,21 +125,6 @@ main {position: relative;height: 100vh;}
   .allbutton{
     a{display: block;position: relative;
       &:hover{filter: brightness(120%);}
-      .light{
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 2;
-        overflow: hidden;
-        -webkit-filter: brightness(2);
-        filter: brightness(2);
-        -webkit-mask-size: 300% 200%;
-        mask-size: 300% 200%;
-         -webkit-mask-image: -webkit-linear-gradient(60deg, rgba(255,255,255,0) 30%, #fff 50%, rgba(255,255,255,0) 60%);
-        mask-image: -webkit-linear-gradient(60deg, rgba(255,255,255,0) 40%, #fff 50%, rgba(255,255,255,0) 60%);
-        -webkit-animation: laluot linear 2.5s infinite 1.2s;
-        animation: laluot linear 2.5s infinite 1.2s;
-      }
     }
   }
   .pagination{
